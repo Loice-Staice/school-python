@@ -10,22 +10,22 @@ class StudentSerializer(serializers.ModelSerializer):
         model = Student
         fields = "__all__"
         
-class ClassroomPeriodSerializer(serializers.ModelSerializer):
+class ClassPeriodSerializer(serializers.ModelSerializer):
     class Meta:
         model=ClassPeriod
         fields ="__all__"
         
-class TeacherPeriodSerializer(serializers.ModelSerializer):
+class TeacherSerializer(serializers.ModelSerializer):
     class Meta:
         model=Teacher
         fields ="__all__"
         
-class CoursePeriodSerializer(serializers.ModelSerializer):
+class CourseSerializer(serializers.ModelSerializer):
     class Meta:
         model=Course
         fields ="__all__"
         
-class ClassroomPeriodSerializer(serializers.ModelSerializer):
+class ClassroomSerializer(serializers.ModelSerializer):
     class Meta:
         model=Classroom
         fields ="__all__"
